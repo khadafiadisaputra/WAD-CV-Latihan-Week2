@@ -1,0 +1,51 @@
+/* Background utama website dan teks */
+body {
+  background-color: #0f172a;
+  min-height: 100vh;
+  margin: 0;
+  color: #e2e8f0; /* Teks utama berwarna terang */
+}
+
+/* Tampilan CV */
+.cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.cv h2,
+.cv h4 {
+  color: #e2e8f0;
+}
+
+.fotocv {
+  width: 200px;
+}
+
+/* Bagian About, Pendidikan, dan Pengalaman dengan gradient konsisten */
+.about,
+.education,
+.experiences,
+.skills {
+  background: linear-gradient(to bottom, #1e293b, #334155);
+  color: #e2e8f0;
+  padding: 50px 0;
+}
+
+/* Spasi antar .row */
+.row {
+  margin-top: 30px;
+}
+
+/* Kartu Pengalaman dengan tampilan dark */
+.card {
+  background-color: #1e293b;
+  border: none;
+}
+
+.card-text {
+  color: #e2e8f0;
+}
